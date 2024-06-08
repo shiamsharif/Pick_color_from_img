@@ -7,7 +7,7 @@ import colorgram  # type: ignore
 rgb_colors = []
 num_of_color = 30
 
-colors = colorgram.extract('./japan.jpg',num_of_color)
+colors = colorgram.extract('./image.jpg',num_of_color)
 for color in colors:
     r = color.rgb.r
     g = color.rgb.g
